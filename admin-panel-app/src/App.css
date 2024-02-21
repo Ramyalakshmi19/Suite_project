@@ -1,0 +1,39 @@
+.icon-div span
+{
+  @apply border-2 p-2 text-3xl rounded-full text-yellow-400
+}
+.report-div
+{
+  @apply grid grid-cols-3 grid-rows-2
+}
+.addInput label
+{
+  @apply flex flex-col gap-1
+}
+.addInput label span
+{
+  @apply font-medium text-lg
+}
+.addInput label input,.addInput label textarea
+{
+  @apply p-3 bg-transparent text-base border-gray-600 border-2 rounded-[0.2rem] focus:outline-none
+}
+.addDialog::-webkit-scrollbar
+{
+  display: none;
+}
+.side-menu a 
+{
+  @apply  p-3 text-left flex items-center gap-2
+}
+.side-menu a:hover
+{
+  background-color:#36C95F;
+  color:white;
+  /* border-radius: 0 20% 50% 0; */
+}
+.side-menu a:active
+{
+  background-color:#36C95F;
+  color:white;
+}
